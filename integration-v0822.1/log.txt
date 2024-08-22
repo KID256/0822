@@ -1,0 +1,12 @@
+---
+almost finish
+---
+
+/* compiler system layer  */
+gcc -o motion_detector user_program.c
+sudo ./motion_detector
+
+gcc -o user_program user_program.c camera_module.c -ljpeg
+
+
+---
